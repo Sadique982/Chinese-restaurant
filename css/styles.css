@@ -87,7 +87,6 @@ nav a {
 
 #nav-list {
   list-style: none;
-  margin-top: 20px white; 
   @media (min-width: 768px) {
     position: absolute;
     right: 0%;
@@ -99,30 +98,32 @@ nav a {
 #nav-list a {
   color: #951C49;
   text-align: center;
-  margin-right: 15px;
+  margin: 0 1px;
 }
-div>ul>li>a {
-  display: block;
-  
-}
-
-div>ul>li>a:hover {
-  display: block;
+#active-page {
   background-color: wheat;
 }
 
+div>ul>li>a:hover {
+
+  background-color: wheat;
+}
+
+#nav-list li a {
+  font-size: 1.3em;
+  padding: 10px;
+}
+
 #nav-list a span {
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 #phone {
-  margin-top: 5px;
-
-
+  margin-top: 0px;
 }
 
 #phone a {
-  /* Phone number */
+
   text-align: right;
   padding-bottom: 0;
 }
