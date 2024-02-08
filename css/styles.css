@@ -98,7 +98,7 @@ nav a {
 #nav-list a {
   color: #951C49;
   text-align: center;
-  margin: 0 1px;
+  margin: 1px;
 }
 #active-page {
   background-color: wheat;
